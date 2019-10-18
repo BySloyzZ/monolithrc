@@ -37,12 +37,20 @@ export default {
       	conduct: "Public Conduct",
       },
       charges: [
-      	{
-          name: "Speeding",
-          description: "Breaching speed limitations. 5: $250, 10: $500, 20: $1000",
+        {
+          name: "Speeding >5mph",
+          description: "Operating a vehicle at least 5 mph above the speed limit.",
           category: "traffic",
           punishment: {
-            special: "Depends on amount",
+            fine: 250,
+          }
+        },
+        {
+          name: "Speeding >10mph",
+          description: "Operating a vehicle at least 10 mph above the speed limit.",
+          category: "traffic",
+          punishment: {
+            fine: 500,
           }
         },
       	{
@@ -194,8 +202,8 @@ export default {
           }
         },
       	{
-          name: "Possession of masks/zipties while commiting a crime",
-          description: "Having masks and/or zipties while commiting a crime.",
+          name: "Possession of masks/zipties",
+          description: "Commiting a crime having masks and/or zipties.",
           category: "narcotics",
           punishment: {
           	jail: 5,
@@ -332,7 +340,8 @@ export default {
           }
         },
       	{
-          name: "Possession of 2 bags or less of marijuana or cocaine",
+          name: "Minor possession of narcotics",
+          description: "Possession of 2 bags or less of marijuana or cocaine",
           category: "narcotics",
           punishment: {
           	special: "Seizure",
@@ -355,14 +364,16 @@ export default {
           }
         },
         {
-          name: "Purchasing illegal firearm/weapon/narcotic/contraband",
+          name: "Purchasing illegal object",
+          description: "Firearm/weapon/narcotic/contraband.",
           category: "criminal",
           punishment: {
             jail: 4,
           }
         },
         {
-          name: "Smuggling illegal firearm/weapon/narcotic/contraband",
+          name: "Smuggling illegal object",
+          description: "Firearm/weapon/narcotic/contraband.",
           category: "criminal",
           punishment: {
             jail: 6,
@@ -774,6 +785,7 @@ export default {
         {
           name: "Impersonating public officials",
           description: "To impersonate a government employee or government official. (This includes Certified Lawyers)",
+          category: "conduct",
           punishment: {
             fine: 3000,
             jail: 6,
@@ -782,6 +794,7 @@ export default {
         {
           name: "Attempting to bribe",
           description: "To attempt to, or to bribe a government employee or government official in return for information, reduced imprisonment or to be relieved of criminal charges.",
+          category: "conduct",
           punishment: {
             fine: 2000,
             jail: 5,
@@ -790,6 +803,7 @@ export default {
         {
           name: "Unlicensed alcohol business",
           description: "To sell alcohol unless you are a registered business, with the relevant licensing.",
+          category: "conduct",
           punishment: {
             fine: 2000,
           }
