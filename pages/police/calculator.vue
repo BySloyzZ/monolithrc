@@ -1,15 +1,19 @@
 <template>
   <div>
-    <Navbar/>
+    <Navbar />
     <div class="container mx-auto p-4">
-      <span class="uppercase text-sm font-semibold bg-blue-700 text-white py-1 px-2 rounded-full">Beta</span>
-      <h1 class="font-semibold text-3xl text-white">
-        Law Enforcement Punishment Lookup
-      </h1>
+      <div class="flex items-center">
+        <h1 class="font-semibold text-3xl text-white">
+          Law Enforcement Punishment Lookup
+        </h1>
+        <div class="ml-2">
+          <span class="inline-block uppercase text-sm font-semibold bg-blue-700 text-white py-1 px-2 rounded-full">Beta</span>
+        </div>
+      </div>
       <p class="text-gray-100 text-xl">A tool to easily calculate fine or jail time amounts based on the charges.</p>
-      <Calculator/>
+      <Calculator />
     </div>
-    <FooterContent/>
+    <FooterContent />
   </div>
 </template>
 <script>
