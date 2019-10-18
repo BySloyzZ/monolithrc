@@ -4,6 +4,8 @@
     <div class="mt-1">
       <div class="mt-4" v-for="(category, key) in filteredCharges">
         <span class="uppercase font-bold tracking-tight text-gray-400">{{ categories[key] }}</span>
+      <div class="mt-2" v-for="(category, key) in filteredCharges">
+        <span class="block py-2 sticky top-0 bg-gray-900 uppercase font-bold tracking-tight text-gray-400">{{ categories[key] }}</span>
         <div v-for="charge in category">
 	    	<Charge v-bind:charge="charge" />
 	    </div>
