@@ -3,7 +3,7 @@
     <Navbar/>
     <div class="container mx-auto p-4">
       <h1 class="font-semibold text-3xl text-white">
-        MonolithRP Resource Compilation
+        MonolithRP Resource Collection
       </h1>
       <p class="text-gray-100 text-xl">A collection of various tools, guides and resources related to the Monolith Roleplay Garry's Mod server.</p>
       <section class="pt-4">
@@ -31,11 +31,3 @@ export default {
 }
 
 </script>
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-
-</style>

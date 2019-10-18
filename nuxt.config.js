@@ -83,5 +83,10 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  pwa: {
+    meta: {
+      title: "Monolith Resource Collection"
+    }
   }
 }

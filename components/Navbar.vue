@@ -9,7 +9,7 @@
         </svg>
       </nuxt-link>
       <nuxt-link to="/">
-        <span class="text-white pl-4 text-lg font-semibold">Resource Compilation</span>
+        <span class="text-white pl-4 text-lg font-semibold">Resource Collection</span>
       </nuxt-link>
     </div>
   </nav>

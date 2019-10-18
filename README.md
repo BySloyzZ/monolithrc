@@ -1,4 +1,4 @@
-# Monolith Resource Compilation
+# Monolith Resource Collection
 
 This is a collection of utilities and guides related to the MonolithRP server.
 
