@@ -2,6 +2,11 @@ import webpack from 'webpack'
 
 export default {
   mode: 'universal',
+  const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+      base: '/monolithrc/'
+    }
+  } : {}
   /*
   ** Headers of the page
   */
