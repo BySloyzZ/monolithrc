@@ -1,22 +1,7 @@
-# mpd
+# Monolith Resource Compilation
 
-> Monolith Police Resources
+This is a collection of utilities and guides related to the MonolithRP server.
 
-## Build Setup
+For now, there's only a tool to help LEO to calculate fine and jail amounts.
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+https://apecengo.github.io/monolithrc
