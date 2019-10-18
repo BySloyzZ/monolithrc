@@ -11,7 +11,7 @@
         <div class="flex pt-2">
           <nuxt-link class="w-full lg:w-1/2 p-6 bg-gray-800 font-semibold font-xl text-white rounded shadow hover:shadow-lg hover:bg-gray-700" to="/police/calculator">
             <span class="text-sm uppercase text-semibold tracking-tighter text-blue-100 bg-blue-800 px-2 rounded-lg">Tool</span>
-            Law Enforcement Punishment Calculator
+            Law Enforcement Punishment Lookup
           </nuxt-link>
         </div>
       </section>
