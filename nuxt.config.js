@@ -59,6 +59,9 @@ export default {
       symbolPosition: 'front',
       symbolSpacing: false
     }],
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-131317024-4'
+    }],
   ],
   /*
   ** Axios module configuration
