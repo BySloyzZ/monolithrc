@@ -784,17 +784,9 @@ export default {
           }
         },
         {
-          name: "Hoax Calling",
-          description: "Using the 911 line to deceive emergency services, or to leave illegitimate messages.",
-          keywords: "false",
-          category: "conduct",
-          punishment: {
-            fine: 1000,
-          }
-        },
-        {
           name: "Wasting Government Resources",
           description: "Using the 911 line to deceive emergency services, or to leave illegitimate messages.",
+          keywords: "hoax calling",
           category: "conduct",
           punishment: {
             fine: 2000,
