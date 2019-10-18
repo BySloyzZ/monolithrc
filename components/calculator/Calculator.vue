@@ -5,8 +5,8 @@
       <div class="mt-2" v-for="(category, key) in filteredCharges">
         <span class="block py-2 sticky top-0 bg-gray-900 uppercase font-bold tracking-tight text-gray-400">{{ categories[key] }}</span>
         <div v-for="charge in category">
-	    	<Charge v-bind:charge="charge" />
-	    </div>
+          <Charge v-bind:charge="charge" />
+        </div>
       </div>
     </div>
   </div>
@@ -29,15 +29,14 @@ export default {
         }
       },
       categories: {
-      	criminal: "Criminal",
-      	undefined: "Miscellaneous",
-      	traffic: "Traffic",
-      	rights: "Human and Civil Rights",
-      	narcotics: "Narcotics, Illicit Weapons, and Firearms",
-      	conduct: "Public Conduct",
+        criminal: "Criminal",
+        undefined: "Miscellaneous",
+        traffic: "Traffic",
+        rights: "Human and Civil Rights",
+        narcotics: "Narcotics, Illicit Weapons, and Firearms",
+        conduct: "Public Conduct",
       },
-      charges: [
-        {
+      charges: [{
           name: "Speeding >5mph",
           description: "Operating a vehicle at least 5 mph above the speed limit.",
           category: "traffic",
@@ -53,7 +52,7 @@ export default {
             fine: 500,
           }
         },
-      	{
+        {
           name: "Excessive Speeding",
           description: "Driving more than 20mph over the speed limit.",
           category: "traffic",
@@ -62,7 +61,7 @@ export default {
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Damaged vehicle",
           description: "Operating a damaged or non-functional vehicle.",
           category: "traffic",
@@ -70,34 +69,34 @@ export default {
             fine: 500,
           }
         },
-      	{
+        {
           name: "Fleeing from an accident",
           description: "It is an offence to flee from the scene of an accident.",
           category: "traffic",
           punishment: {
-          	jail: 5,
+            jail: 5,
             fine: 2000,
           }
         },
-      	{
+        {
           name: "DUI",
           description: "Operate a vehicle whilst under the influence of alcohol or drugs use.",
           category: "traffic",
           punishment: {
-          	jail: 5,
+            jail: 5,
             fine: 2500,
           }
         },
-      	{
+        {
           name: "Driving without license",
           description: "Operate a vehicle without possessing the relevant, valid license required to operate it",
           category: "traffic",
           punishment: {
-          	jail: 5,
+            jail: 5,
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Driving on incorrect side",
           description: "Using a vehicle on the incorrect side of the road.",
           category: "traffic",
@@ -105,7 +104,7 @@ export default {
             fine: 500,
           }
         },
-      	{
+        {
           name: "Disobeying signs/failure to give way",
           description: "Disobeying traffic signs, or not giving way to other road users when required",
           category: "traffic",
@@ -113,7 +112,7 @@ export default {
             fine: 1000,
           }
         },
-      	{
+        {
           name: "Parking fully on a sidewalk",
           description: "If obstructing emergency or vital services, $2,000, otherwise $1,000.",
           category: "traffic",
@@ -121,34 +120,34 @@ export default {
             special: "Depends on location",
           }
         },
-      	{
+        {
           name: "Reckless Endangerment",
           description: "Driving in a way that threatens and may cause death or injury to others.",
           category: "traffic",
           punishment: {
-          	jail: 5,
+            jail: 5,
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Reckless Driving",
           description: "Driving without due consideration for pedestrians or other road users.",
           category: "traffic",
           punishment: {
-          	jail: 5,
+            jail: 5,
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Aggravated Driving",
           description: "Driving whilst enrage or whilst under emotional pressure or stress.",
           category: "traffic",
           punishment: {
-          	jail: 5,
+            jail: 5,
             fine: 1000,
           }
         },
-      	{
+        {
           name: "Failure to Comply",
           description: "Not complying with any traffic signals or instructions from a law enforcement officer.",
           category: "traffic",
@@ -156,7 +155,7 @@ export default {
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Failure to Give Way",
           description: "You must give way to oncoming traffic if your side of the road is obstructed.",
           category: "traffic",
@@ -164,7 +163,7 @@ export default {
             fine: 1000,
           }
         },
-      	{
+        {
           name: "Overtaking on wrong side",
           description: "Overtaking a vehicle on the right-hand side.",
           category: "traffic",
@@ -174,7 +173,7 @@ export default {
         },
         // HUMAN AND CIVIL RIGHTS
 
-      	{
+        {
           name: "Unauthorized photography in public",
           description: "Taking a picture of someone in a public place, if they have explicitly informed you that you have no consent.",
           category: "rights",
@@ -182,7 +181,7 @@ export default {
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Unauthorized photography in private",
           description: "Taking a picture of someone in a private place, unless they have explicitly informed you that you have consent to do so.",
           category: "rights",
@@ -192,88 +191,88 @@ export default {
         },
 
         // NARCOTICS
-      	{
+        {
           name: "Possession of illegal narcotics or contraband",
           description: "Having drugs, substances exclusive to the production of drugs, or contraband.",
           category: "narcotics",
           punishment: {
-          	jail: 5,
+            jail: 5,
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Possession of masks/zipties",
           description: "Commiting a crime having masks and/or zipties.",
           category: "narcotics",
           punishment: {
-          	jail: 5,
+            jail: 5,
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Possession (Class A)",
           description: "Possession of a heavy weapon: machine guns, assault rifles, sniper rifles, shotguns, etc.",
           category: "narcotics",
           punishment: {
-          	jail: 6,
+            jail: 6,
             fine: 3000,
           }
         },
-      	{
+        {
           name: "Possession with Intent (Class A)",
           description: "Possession of a heavy weapon while supplying/selling or intending to supply/sell",
           category: "narcotics",
           punishment: {
-          	jail: 10,
+            jail: 10,
             fine: 3500,
           }
         },
-      	{
+        {
           name: "Possession with Intent (Class A)",
           description: "Possession of a heavy weapon while supplying/selling or intending to supply/sell.",
           category: "narcotics",
           punishment: {
-          	jail: 10,
+            jail: 10,
             fine: 3500,
           }
         },
-      	{
+        {
           name: "Possession (Class B)",
           description: "Possession of a handgun. Only if unlicensed or used while commiting a crime.",
           category: "narcotics",
           punishment: {
-          	jail: 8,
+            jail: 8,
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Possession with Intent (Class B)",
           description: "Possession of a handgun while supplying/selling or intending to supply/sell.",
           category: "narcotics",
           punishment: {
-          	jail: 8,
+            jail: 8,
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Possession (Class C)",
           description: "Possession of an offensive weapon. This includes a physical item or tool, or blade. (Only if they were used in a crime as they are legal item by default)",
           category: "narcotics",
           punishment: {
-          	jail: 2,
+            jail: 2,
             fine: 1000,
           }
         },
-      	{
+        {
           name: "Possession (Class C)",
           description: "Possession of an illegal offensive weapon while supplying/selling or intending to supply/sell.",
           category: "narcotics",
           punishment: {
-          	jail: 4,
+            jail: 4,
             fine: 1500,
           }
         },
-      	{
+        {
           name: "Brandishing (Class A)",
           description: "Brandishing of a heavy weapon. (add appropiate possession charges)",
           category: "narcotics",
@@ -281,7 +280,7 @@ export default {
             fine: 1500,
           }
         },
-      	{
+        {
           name: "Brandishing (Class B)",
           description: "Brandishing of a handgun. (add appropiate possession charges)",
           category: "narcotics",
@@ -289,7 +288,7 @@ export default {
             fine: 1200,
           }
         },
-      	{
+        {
           name: "Brandishing (Class C)",
           description: "Brandishing of an offensive weapon. (add appropiate possession charges)",
           category: "narcotics",
@@ -297,7 +296,7 @@ export default {
             fine: 500,
           }
         },
-      	{
+        {
           name: "Usage (Class A)",
           description: "Usage of a heavy weapon. (add appropiate possession and brandishing charges)",
           category: "narcotics",
@@ -305,7 +304,7 @@ export default {
             fine: 1500,
           }
         },
-      	{
+        {
           name: "Usage (Class B)",
           description: "Unlawful usage of a handgun. (add appropiate possession and brandishing charges)",
           category: "narcotics",
@@ -313,7 +312,7 @@ export default {
             fine: 1200,
           }
         },
-      	{
+        {
           name: "Usage (Class C)",
           description: "Unlawful usage of an offensive weapon. (add appropiate possession and brandishing charges)",
           category: "narcotics",
@@ -321,30 +320,30 @@ export default {
             fine: 500,
           }
         },
-      	{
+        {
           name: "Possession of a narcotic substance",
           description: "Possession of any amount of illegal substance or narcotics.",
           category: "narcotics",
           punishment: {
-          	jail: 5,
+            jail: 5,
             fine: 2000,
           }
         },
-      	{
+        {
           name: "Possession with Intent (narcotic)",
           description: "ossession of any amount of illegal substance or narcotics while supplying/selling or intending to supply/sell.",
           category: "narcotics",
           punishment: {
-          	jail: 10,
+            jail: 10,
             fine: 2500,
           }
         },
-      	{
+        {
           name: "Minor possession of narcotics",
           description: "Possession of 2 bags or less of marijuana or cocaine",
           category: "narcotics",
           punishment: {
-          	special: "Seizure",
+            special: "Seizure",
           }
         },
         {
@@ -382,8 +381,8 @@ export default {
 
 
 
-      	// CRIMINAL
-      	{
+        // CRIMINAL
+        {
           name: "Assault",
           description: "Show intent or attempting to create offensive contact with a person (doesn't involve physical contact).",
           category: "criminal",
@@ -802,14 +801,12 @@ export default {
         },
         {
           name: "Unlicensed alcohol business",
-          description: "To sell alcohol unless you are a registered business, with the relevant licensing.",
+          description: "Selling alcohol without the relevant licensing.",
           category: "conduct",
           punishment: {
             fine: 2000,
           }
         },
-
-
       ],
     }
   },
