@@ -2,8 +2,6 @@
   <div class="text-white">
     <input autofocus="true" v-model="search" class="bg-gray-800 focus:outline-none focus:shadow-outline border border-gray-700 rounded-lg mt-4 py-2 px-4 block w-full appearance-none leading-normal" placeholder="Search charges..." type="text">
     <div class="mt-1">
-      <div class="mt-4" v-for="(category, key) in filteredCharges">
-        <span class="uppercase font-bold tracking-tight text-gray-400">{{ categories[key] }}</span>
       <div class="mt-2" v-for="(category, key) in filteredCharges">
         <span class="block py-2 sticky top-0 bg-gray-900 uppercase font-bold tracking-tight text-gray-400">{{ categories[key] }}</span>
         <div v-for="charge in category">
