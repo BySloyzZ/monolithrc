@@ -98,9 +98,10 @@ export default {
           }
         },
         {
-          name: "DUI",
+          name: "Driving Under the Influence",
           description: "Operate a vehicle whilst under the influence of alcohol or drugs use.",
           category: "traffic",
+          keywords: "dui dwi",
           punishment: {
             jail: 5,
             fine: 2500,
@@ -118,6 +119,7 @@ export default {
         {
           name: "Driving on incorrect side",
           description: "Using a vehicle on the incorrect side of the road.",
+          keywords: "lane",
           category: "traffic",
           punishment: {
             fine: 500,
@@ -340,9 +342,10 @@ export default {
           }
         },
         {
-          name: "Possession of a narcotic substance",
+          name: "Possession of a Narcotic Substance",
           description: "Possession of any amount of illegal substance or narcotics.",
           category: "narcotics",
+          keywords: "drug",
           punishment: {
             jail: 5,
             fine: 2000,
@@ -351,6 +354,7 @@ export default {
         {
           name: "Possession with Intent (narcotic)",
           description: "ossession of any amount of illegal substance or narcotics while supplying/selling or intending to supply/sell.",
+          keywords: "drug",
           category: "narcotics",
           punishment: {
             jail: 10,
@@ -358,7 +362,8 @@ export default {
           }
         },
         {
-          name: "Minor possession of narcotics",
+          name: "Minor Possession of Narcotic",
+          keywords: "drug",
           description: "Possession of 2 bags or less of marijuana or cocaine",
           category: "narcotics",
           punishment: {
@@ -382,7 +387,7 @@ export default {
           }
         },
         {
-          name: "Purchasing illegal object",
+          name: "Purchasing Illegal Object",
           description: "Firearm/weapon/narcotic/contraband.",
           category: "criminal",
           punishment: {
@@ -390,7 +395,7 @@ export default {
           }
         },
         {
-          name: "Smuggling illegal object",
+          name: "Smuggling Illegal Object",
           description: "Firearm/weapon/narcotic/contraband.",
           category: "criminal",
           punishment: {
@@ -436,6 +441,7 @@ export default {
         {
           name: "Actual Bodily Harm",
           description: "Causing injury to another, such as bruising, causing a black eye, broken teeth etc.",
+          keywords: "abh",
           category: "criminal",
           punishment: {
             jail: 6,
@@ -444,6 +450,7 @@ export default {
         {
           name: "Grievous Bodily Harm",
           description: "Causing significant injury to another, which would result in long treatment or a level of incapacity (broken limbs etc.).",
+          keywords: "gbh",
           category: "criminal",
           punishment: {
             jail: 10,
@@ -631,8 +638,9 @@ export default {
           }
         },
         {
-          name: "Prison break",
+          name: "Prison Break",
           description: "To breach or break from prison, to allow or assist someone to do so, or escape from being detained.",
+          keywords: "jail",
           category: "criminal",
           punishment: {
             jail: 10,
@@ -673,7 +681,7 @@ export default {
           }
         },
         {
-          name: "Unlawful provocation",
+          name: "Unlawful Provocation",
           description: "Threatening, using offensive or insulting language, or abusive behavior towards another person. Using signs or written displays to do the same.",
           category: "conduct",
           punishment: {
@@ -682,7 +690,7 @@ export default {
           }
         },
         {
-          name: "Harassment/Causing undue-distress",
+          name: "Harassment/Causing Undue Distress",
           description: "Unlawful provocation occuring on two or more occasions.",
           category: "conduct",
           punishment: {
@@ -708,7 +716,7 @@ export default {
           }
         },
         {
-          name: "Unauthorized access",
+          name: "Unauthorized Access",
           description: "Causing damage to, or accessing restricted or private property without proper consent or justification.",
           category: "conduct",
           punishment: {
@@ -717,7 +725,7 @@ export default {
           }
         },
         {
-          name: "Trespassing ",
+          name: "Trespassing",
           description: "Trespassing private/government/restricted property/assets or a crime-scene.",
           category: "conduct",
           punishment: {
@@ -778,6 +786,7 @@ export default {
         {
           name: "Hoax Calling",
           description: "Using the 911 line to deceive emergency services, or to leave illegitimate messages.",
+          keywords: "false",
           category: "conduct",
           punishment: {
             fine: 1000,
@@ -793,7 +802,7 @@ export default {
           }
         },
         {
-          name: "Disorderly conduct under influence",
+          name: "Disorderly Conduct Under Influence",
           description: "To act disorderly under the influence of alcohol, in a public place.",
           category: "conduct",
           punishment: {
@@ -801,7 +810,7 @@ export default {
           }
         },
         {
-          name: "Impersonating public officials",
+          name: "Impersonating Public Officials",
           description: "To impersonate a government employee or government official. (This includes Certified Lawyers)",
           category: "conduct",
           punishment: {
@@ -810,7 +819,7 @@ export default {
           }
         },
         {
-          name: "Attempting to bribe",
+          name: "Attempting to Bribe",
           description: "To attempt to, or to bribe a government employee or government official in return for information, reduced imprisonment or to be relieved of criminal charges.",
           category: "conduct",
           punishment: {
@@ -819,7 +828,7 @@ export default {
           }
         },
         {
-          name: "Unlicensed alcohol business",
+          name: "Unlicensed Alcohol Business",
           description: "Selling alcohol without the relevant licensing.",
           category: "conduct",
           punishment: {
