@@ -786,7 +786,7 @@ export default {
         {
           name: "Wasting Government Resources",
           description: "Using the 911 line to deceive emergency services, or to leave illegitimate messages.",
-          keywords: "hoax calling",
+          keywords: "hoax calling false",
           category: "conduct",
           punishment: {
             fine: 2000,
@@ -853,7 +853,12 @@ export default {
 
       return _.groupBy(results, "category")
     }
-  }
+  },
+  head () {
+    return {
+      title: "Law Enforcement Punishment Lookup"
+    }
+  },
 }
 
 </script>

@@ -1,7 +1,7 @@
 {
-  "name": "mpd",
+  "name": "monolithrc",
   "version": "1.0.0",
-  "description": "Monolith Police Resources",
+  "description": "A collection of some tools to help you on Monolith.",
   "author": "Apecengo",
   "private": true,
   "scripts": {
