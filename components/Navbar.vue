@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="container mx-auto p-4 flex items-center">
+    <div class="container mx-auto p-4 mt-2 flex items-center">
       <nuxt-link to="/">
         <svg class="h-10 w-48 fill-current text-white" version="1.0" xmlns="http://www.w3.org/2000/svg" width="1600" height="285" viewBox="0 0 16000 2850">
           <g>
