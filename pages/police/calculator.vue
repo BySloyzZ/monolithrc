@@ -753,6 +753,7 @@ export default {
         {
           name: "Fleeing (Foot) - Evading/Evasion",
           description: "Attempting to escape on foot, from law enforcement when they are exhibiting signs for you to stop and surrender.",
+          keywords: "pursuit chase",
           category: "conduct",
           punishment: {
             jail: 4,
@@ -761,6 +762,7 @@ export default {
         {
           name: "Fleeing (Vehicle)- Evading/Evasion",
           description: "Attempting to escape in a vehicle, from law enforcement when they are exhibiting signs for you to stop and surrender.",
+          keywords: "pursuit chase",
           category: "conduct",
           punishment: {
             jail: 6,
