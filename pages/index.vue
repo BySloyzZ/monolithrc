@@ -27,7 +27,12 @@ export default {
   components: {
     Navbar,
     FooterContent
-  }
+  },
+  head () {
+    return {
+      title: "Monolith Resource Collection"
+    }
+  },
 }
 
 </script>

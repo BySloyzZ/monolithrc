@@ -856,7 +856,7 @@ export default {
   },
   head () {
     return {
-      title: "Law Enforcement Punishment Lookup"
+      title: "Law Enforcement Punishment Lookup - Monolith RC"
     }
   },
 }
