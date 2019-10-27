@@ -76,7 +76,7 @@ export default {
           description: "Driving more than 20mph over the speed limit.",
           category: "traffic",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2000,
           }
         },
@@ -93,7 +93,7 @@ export default {
           description: "It is an offence to flee from the scene of an accident.",
           category: "traffic",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2000,
           }
         },
@@ -103,7 +103,7 @@ export default {
           category: "traffic",
           keywords: "dui dwi",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2500,
           }
         },
@@ -112,7 +112,7 @@ export default {
           description: "Operate a vehicle without possessing the relevant, valid license required to operate it",
           category: "traffic",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2000,
           }
         },
@@ -146,7 +146,7 @@ export default {
           description: "Driving in a way that threatens and may cause death or injury to others.",
           category: "traffic",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2000,
           }
         },
@@ -155,7 +155,7 @@ export default {
           description: "Driving without due consideration for pedestrians or other road users.",
           category: "traffic",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2000,
           }
         },
@@ -164,7 +164,7 @@ export default {
           description: "Driving whilst enrage or whilst under emotional pressure or stress.",
           category: "traffic",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 1000,
           }
         },
@@ -217,7 +217,7 @@ export default {
           description: "Having drugs, substances exclusive to the production of drugs, or contraband.",
           category: "narcotics",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2000,
           }
         },
@@ -226,7 +226,7 @@ export default {
           description: "Commiting a crime having masks and/or zipties.",
           category: "narcotics",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2000,
           }
         },
@@ -235,7 +235,7 @@ export default {
           description: "Possession of a heavy weapon: machine guns, assault rifles, sniper rifles, shotguns, etc.",
           category: "narcotics",
           punishment: {
-            jail: 6,
+            jail: 9,
             fine: 3000,
           }
         },
@@ -244,7 +244,7 @@ export default {
           description: "Possession of a heavy weapon while supplying/selling or intending to supply/sell",
           category: "narcotics",
           punishment: {
-            jail: 10,
+            jail: 15,
             fine: 3500,
           }
         },
@@ -253,7 +253,7 @@ export default {
           description: "Possession of a heavy weapon while supplying/selling or intending to supply/sell.",
           category: "narcotics",
           punishment: {
-            jail: 10,
+            jail: 15,
             fine: 3500,
           }
         },
@@ -262,7 +262,7 @@ export default {
           description: "Possession of a handgun. Only if unlicensed or used while commiting a crime.",
           category: "narcotics",
           punishment: {
-            jail: 8,
+            jail: 12,
             fine: 2000,
           }
         },
@@ -271,7 +271,7 @@ export default {
           description: "Possession of a handgun while supplying/selling or intending to supply/sell.",
           category: "narcotics",
           punishment: {
-            jail: 8,
+            jail: 12,
             fine: 2000,
           }
         },
@@ -280,16 +280,16 @@ export default {
           description: "Possession of an offensive weapon. This includes a physical item or tool, or blade. (Only if they were used in a crime as they are legal item by default)",
           category: "narcotics",
           punishment: {
-            jail: 2,
+            jail: 3,
             fine: 1000,
           }
         },
         {
-          name: "Possession (Class C)",
+          name: "Possession with Intent (Class C)",
           description: "Possession of an illegal offensive weapon while supplying/selling or intending to supply/sell.",
           category: "narcotics",
           punishment: {
-            jail: 4,
+            jail: 6,
             fine: 1500,
           }
         },
@@ -347,7 +347,7 @@ export default {
           category: "narcotics",
           keywords: "drug",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2000,
           }
         },
@@ -357,7 +357,7 @@ export default {
           keywords: "drug",
           category: "narcotics",
           punishment: {
-            jail: 10,
+            jail: 15,
             fine: 2500,
           }
         },
@@ -375,7 +375,7 @@ export default {
           description: "As Robbery, however with the use of a firearm or an offensive weapon to assist.",
           category: "criminal",
           punishment: {
-            jail: 15,
+            jail: 23,
           }
         },
         {
@@ -383,7 +383,7 @@ export default {
           description: "As Assault, however with the use of a firearm or an offensive weapon to assist.",
           category: "criminal",
           punishment: {
-            jail: 15,
+            jail: 23,
           }
         },
         {
@@ -391,7 +391,7 @@ export default {
           description: "Firearm/weapon/narcotic/contraband.",
           category: "criminal",
           punishment: {
-            jail: 4,
+            jail: 6,
           }
         },
         {
@@ -399,7 +399,7 @@ export default {
           description: "Firearm/weapon/narcotic/contraband.",
           category: "criminal",
           punishment: {
-            jail: 6,
+            jail: 9,
           }
         },
 
@@ -411,7 +411,7 @@ export default {
           description: "Show intent or attempting to create offensive contact with a person (doesn't involve physical contact).",
           category: "criminal",
           punishment: {
-            jail: 5,
+            jail: 8,
           }
         },
         {
@@ -419,7 +419,7 @@ export default {
           description: "Causing harmful or some form of offensive contact, which would be certain to occur, or has occurred.",
           category: "criminal",
           punishment: {
-            jail: 8,
+            jail: 12,
           }
         },
         {
@@ -427,7 +427,7 @@ export default {
           description: "Using a deadly weapon to cause serious injury.",
           category: "criminal",
           punishment: {
-            jail: 10,
+            jail: 15,
           }
         },
         {
@@ -435,7 +435,7 @@ export default {
           description: "Causing harm against someone with the reckless use of a motor vehicle.",
           category: "criminal",
           punishment: {
-            jail: 8,
+            jail: 12,
           }
         },
         {
@@ -444,7 +444,7 @@ export default {
           keywords: "abh",
           category: "criminal",
           punishment: {
-            jail: 6,
+            jail: 9,
           }
         },
         {
@@ -453,7 +453,7 @@ export default {
           keywords: "gbh",
           category: "criminal",
           punishment: {
-            jail: 10,
+            jail: 15,
           }
         },
         {
@@ -461,7 +461,7 @@ export default {
           description: "Intentionally causing severe physical or psychological pain or injury to someone who is being restrained physically, or someone who is not in a position to defend against the actions being forced upon them.",
           category: "criminal",
           punishment: {
-            jail: 10,
+            jail: 15,
           }
         },
         {
@@ -469,7 +469,7 @@ export default {
           description: "Intentionally taking the life of another, which is premeditated.",
           category: "criminal",
           punishment: {
-            jail: 15,
+            jail: 23,
           }
         },
         {
@@ -477,7 +477,7 @@ export default {
           description: "Intentionally taking the life of another, however which is not planned prior.",
           category: "criminal",
           punishment: {
-            jail: 12,
+            jail: 18,
           }
         },
         {
@@ -485,7 +485,7 @@ export default {
           description: "Intentionally attempting to take the life of another, in any capacity.",
           category: "criminal",
           punishment: {
-            jail: 8,
+            jail: 12,
           }
         },
         {
@@ -493,7 +493,7 @@ export default {
           description: "Not intentionally taking the life of another, however killing them via acts of negligence without intent.",
           category: "criminal",
           punishment: {
-            jail: 6,
+            jail: 9,
           }
         },
         {
@@ -502,7 +502,7 @@ export default {
           keywords: "LEO",
           category: "criminal",
           punishment: {
-            jail: 18,
+            jail: 27,
           }
         },
         {
@@ -511,7 +511,7 @@ export default {
           keywords: "LEO",
           category: "criminal",
           punishment: {
-            jail: 10,
+            jail: 15,
           }
         },
         {
@@ -519,7 +519,7 @@ export default {
           description: "Forcefully, or threatening to forcefully take/attempt to take property of another against their will, in a violent manner.",
           category: "criminal",
           punishment: {
-            jail: 5,
+            jail: 8,
           }
         },
         {
@@ -527,7 +527,7 @@ export default {
           description: "Entering a property such as a house or building with the intent or purpose to commit an offence.",
           category: "criminal",
           punishment: {
-            jail: 8,
+            jail: 12,
           }
         },
         {
@@ -535,7 +535,7 @@ export default {
           description: "Dishonestly, and purposefully withholding an asset with the intent to use for their own usage. The asset will have been entrusted by the true owner of the asset.",
           category: "criminal",
           punishment: {
-            jail: 4,
+            jail: 6,
           }
         },
         {
@@ -543,7 +543,7 @@ export default {
           description: "Intentionally using false information, or using deception to secure personal gain in an unfair or unlawful manner. This also includes creating falsified evidence in the court of law.",
           category: "criminal",
           punishment: {
-            jail: 5,
+            jail: 8,
           }
         },
         {
@@ -551,7 +551,7 @@ export default {
           description: "Creating false money, or goods in order to deceive another person, or for personal gain.",
           category: "criminal",
           punishment: {
-            jail: 6,
+            jail: 9,
           }
         },
         {
@@ -560,7 +560,7 @@ export default {
           keywords: "gta",
           category: "criminal",
           punishment: {
-            jail: 10,
+            jail: 15,
           }
         },
         {
@@ -569,7 +569,7 @@ export default {
           keywords: "raid",
           category: "criminal",
           punishment: {
-            jail: 25,
+            jail: 38,
           }
         },
         {
@@ -577,7 +577,7 @@ export default {
           description: "Obtaining a service, money or asset by forcing someone physically, or threatening them to do so, against their will.",
           category: "criminal",
           punishment: {
-            jail: 6,
+            jail: 9,
           }
         },
         {
@@ -585,7 +585,7 @@ export default {
           description: "Forcefully transporting or moving a person away against their will.",
           category: "criminal",
           punishment: {
-            jail: 15,
+            jail: 23,
           }
         },
         {
@@ -593,7 +593,7 @@ export default {
           description: "Holding or restraining a person in a restricted area against their consent, or without any justification.",
           category: "criminal",
           punishment: {
-            jail: 8,
+            jail: 12,
           }
         },
         {
@@ -609,7 +609,7 @@ export default {
           description: "Obtaining a secret, confidential or restricted data without consent from the holder of the information.",
           category: "criminal",
           punishment: {
-            jail: 30,
+            jail: 45,
           }
         },
         {
@@ -617,7 +617,7 @@ export default {
           description: "Obstructing, or conspiring to obstruct the course of justice.",
           category: "criminal",
           punishment: {
-            jail: 10,
+            jail: 15,
           }
         },
         {
@@ -633,7 +633,7 @@ export default {
           description: "The act of conspiring or declaring that you intend to do a criminal act or other violation of the law.",
           category: "criminal",
           punishment: {
-            jail: 5,
+            jail: 8,
             fine: 2000,
           }
         },
@@ -643,7 +643,7 @@ export default {
           keywords: "jail",
           category: "criminal",
           punishment: {
-            jail: 10,
+            jail: 15,
           }
         },
         {
@@ -661,7 +661,7 @@ export default {
           description: "5 or more persons who are using, or threatening to use violence for a mutual purpose between them.",
           category: "conduct",
           punishment: {
-            jail: 5,
+            jail: 8,
           }
         },
         {
@@ -669,7 +669,7 @@ export default {
           description: "2-4 persons who are using, or threatening to use violence for a mutual purpose between them.",
           category: "conduct",
           punishment: {
-            jail: 5,
+            jail: 8,
           }
         },
         {
@@ -677,7 +677,7 @@ export default {
           description: "Fighting 1 or more other persons in a public area with intent to cause terror to bystanders.",
           category: "conduct",
           punishment: {
-            jail: 6,
+            jail: 9,
           }
         },
         {
@@ -685,7 +685,7 @@ export default {
           description: "Threatening, using offensive or insulting language, or abusive behavior towards another person. Using signs or written displays to do the same.",
           category: "conduct",
           punishment: {
-            jail: 2,
+            jail: 3,
             fine: 2000,
           }
         },
@@ -694,7 +694,7 @@ export default {
           description: "Unlawful provocation occuring on two or more occasions.",
           category: "conduct",
           punishment: {
-            jail: 3,
+            jail: 5,
             fine: 3000,
           }
         },
@@ -703,7 +703,7 @@ export default {
           description: "Causing unnecessary stress or tension, using humiliating, abusive or threatening behavior, to other people in a public or private place.",
           category: "conduct",
           punishment: {
-            jail: 2,
+            jail: 3,
             fine: 1500,
           }
         },
@@ -721,7 +721,7 @@ export default {
           category: "conduct",
           punishment: {
             fine: 2000,
-            jail: 3,
+            jail: 5,
           }
         },
         {
@@ -730,7 +730,7 @@ export default {
           category: "conduct",
           punishment: {
             fine: 2000,
-            jail: 5,
+            jail: 8,
           }
         },
         {
@@ -739,7 +739,7 @@ export default {
           category: "conduct",
           punishment: {
             fine: 1500,
-            jail: 2,
+            jail: 3,
           }
         },
         {
@@ -747,7 +747,7 @@ export default {
           description: "Causing an obstruction, or using physical force to prevent yourself from being detained.",
           category: "conduct",
           punishment: {
-            jail: 5,
+            jail: 8,
           }
         },
         {
@@ -756,7 +756,7 @@ export default {
           keywords: "pursuit chase",
           category: "conduct",
           punishment: {
-            jail: 4,
+            jail: 6,
           }
         },
         {
@@ -765,7 +765,7 @@ export default {
           keywords: "pursuit chase",
           category: "conduct",
           punishment: {
-            jail: 6,
+            jail: 9,
           }
         },
         {
@@ -773,7 +773,7 @@ export default {
           description: "Failing to meet the command or orders from law enforcement.",
           category: "conduct",
           punishment: {
-            jail: 2,
+            jail: 3,
             fine: 2000,
           }
         },
@@ -792,7 +792,7 @@ export default {
           category: "conduct",
           punishment: {
             fine: 2000,
-            jail: 2,
+            jail: 3,
           }
         },
         {
@@ -809,7 +809,7 @@ export default {
           category: "conduct",
           punishment: {
             fine: 3000,
-            jail: 6,
+            jail: 9,
           }
         },
         {
@@ -818,7 +818,7 @@ export default {
           category: "conduct",
           punishment: {
             fine: 2000,
-            jail: 5,
+            jail: 8,
           }
         },
         {
@@ -856,7 +856,7 @@ export default {
       return _.groupBy(results, "category")
     }
   },
-  head () {
+  head() {
     return {
       title: "Law Enforcement Punishment Lookup - Monolith RC"
     }
