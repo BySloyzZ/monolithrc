@@ -51,7 +51,6 @@ export default {
         criminal: "Criminal",
         undefined: "Miscellaneous",
         traffic: "Traffic",
-        rights: "Human and Civil Rights",
         narcotics: "Narcotics, Illicit Weapons, and Firearms",
         conduct: "Public Conduct",
       },
@@ -192,26 +191,17 @@ export default {
             fine: 1500,
           }
         },
-        // HUMAN AND CIVIL RIGHTS
-
         {
-          name: "Unauthorized photography in public",
-          description: "Taking a picture of someone in a public place, if they have explicitly informed you that you have no consent.",
-          category: "rights",
+          name: "Tinted windows",
+          description: "Vehicle with fully-tinted windows (no see-through from outside).",
+          category: "traffic",
           punishment: {
-            fine: 2000,
-          }
-        },
-        {
-          name: "Unauthorized photography in private",
-          description: "Taking a picture of someone in a private place, unless they have explicitly informed you that you have consent to do so.",
-          category: "rights",
-          punishment: {
-            fine: 2000,
+            fine: 600,
           }
         },
 
         // NARCOTICS
+
         {
           name: "Possession of illegal narcotics or contraband",
           description: "Having drugs, substances exclusive to the production of drugs, or contraband.",
